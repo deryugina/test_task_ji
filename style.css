@@ -1,0 +1,129 @@
+/*@font-face {
+	font-family: "ProximaNova";
+	src: url("Gilroy-Light.eot");
+	src: url("/fonts/ProximaNova-BoldIt.eot?#iefix") format("embedded-opentype"),
+		url("/fonts/ProximaNova-Bold.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ProximaNovaReg";
+	src: url("Gilroy-Light.eot");
+        src: url("C:\fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+        url('C:\fonts\ProximaNova-Regular.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+
+@font-face {
+  font-family: 'ProximaNovaB';
+  src: local("☺"),
+  url(./fonts/ProximaNova-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: local("☺"),
+  url(./fonts/ProximaNova-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1310px;
+        margin-top: 73px;
+    }
+}
+
+body {
+    font-family: 'ProximaNovaB';
+    /*font-weight: bold;*/
+}
+
+.bottom-line {
+    width: 100%;
+    margin-top: 87px;
+    border-bottom: 2px solid #f8f3ff;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-line > div {
+    position: relative;
+    top: 14px;
+    background: #fff;
+    padding: 0 15px;
+}
+
+.add-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: #3c3c3c;
+    border: 5px solid #fbf9ff;
+    height: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s linear;
+    text-decoration: none;
+   
+}
+
+.add-col:hover {
+    color: #ce7852;
+    border-color: #ebdcff;
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #3c3c3c;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+span {
+    color: #ce7852;
+}
+
+.heart-img {
+    width: 27px;
+}
+
+.second-h1 {
+    margin-top: 75px;
+}
+
+.description-books {
+    white-space: pre-line;
+    font-family: 'ProximaNova';
+    /*font-size: 18px;*/
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #3c3c3c;
+    margin-bottom: 44px;
+}
+
+.all-news {
+    color: #ce7852 !important;
+    text-decoration: underline !important; 
+}
+
+figcaption {
+  white-space: pre-line;
+}
+
+.books-wrapper {
+  /*display: flex;
+  justify-content: flex-end;
+  margin-left: 30px;*/
+}
